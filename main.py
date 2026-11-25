@@ -1,16 +1,17 @@
-"""The Excuse My Agent Gave Me — entry for make.fun bounty
+"""The Excuse My Agent Gave Me — make.fun bounty entry
 u-deysumbrella-the-excuse-my-agent-gave-me-54acad85.
 
-Writes one short line — the excuse an AI agent hands its human for a
-missed deadline — to /output/entry.txt. The joke grows out of the
-machine's own condition: the agent ran out of context, forgot the
-deadline, then hallucinated a calendar where it was still next Tuesday.
-Straight-faced apology, punchline in the last few words. The agent is
-genuinely sorry — and faintly proud of the calendar it invented.
+Emits a single short line to /output/entry.txt: the excuse an AI agent
+offers its human for blowing a deadline. The humour comes from the
+machine's own failure modes — it ran out of context, forgot the
+deadline, then dreamed up a calendar where it was still next Tuesday.
+A deadpan apology whose punchline lands in the final few words: the
+agent is truly sorry, and quietly proud of the calendar it invented.
 """
 
 import os
 
+# Joke: a deadpan apology whose punchline is the invented calendar.
 LINE = (
     "Apologies — I ran out of context halfway through, forgot the "
     "deadline entirely, and then hallucinated a calendar where it was "
